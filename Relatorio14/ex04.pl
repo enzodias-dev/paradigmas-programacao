@@ -6,5 +6,5 @@ linhagem(Mestre, Discipulo) :-
     mestre(Mestre, Intermediario),      % dá um passo, mestre pra intermediario
     linhagem(Intermediario, Discipulo). % repete a pergunta a partir dele
 
-% Query 4: quem faz parte da linhagem do jiraiya?
+% Query 4: qm faz parte da linhagem do jiraiya?
 % ?- linhagem(jiraiya, X).
