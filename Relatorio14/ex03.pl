@@ -7,5 +7,5 @@ rivais(A, B) :-
     cla(B, ClaB),            % descobre o clã de B
     ClaA \= ClaB.            % os clãs precisam ser diferentes
 
-% Query 3: quem é ou são os rivais de Naruto?
+% Query 3: quem é ou são os rivais de naruto?
 % ?- rivais(naruto, Rival).
